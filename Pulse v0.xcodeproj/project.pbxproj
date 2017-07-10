@@ -13,6 +13,9 @@
 		C96F42811F0ED78700AB13A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C96F427F1F0ED78700AB13A1 /* Main.storyboard */; };
 		C96F42831F0ED78700AB13A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C96F42821F0ED78700AB13A1 /* Assets.xcassets */; };
 		C96F42861F0ED78700AB13A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C96F42841F0ED78700AB13A1 /* LaunchScreen.storyboard */; };
+		C96F42901F13F30400AB13A1 /* Root.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C96F428F1F13F30400AB13A1 /* Root.storyboard */; };
+		C96F42921F13F82100AB13A1 /* UIWindowExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C96F42911F13F82100AB13A1 /* UIWindowExtension.swift */; };
+		C96F42941F13F95200AB13A1 /* SplashScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C96F42931F13F95200AB13A1 /* SplashScreenViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		C96F42821F0ED78700AB13A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C96F42851F0ED78700AB13A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C96F42871F0ED78700AB13A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C96F428F1F13F30400AB13A1 /* Root.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Root.storyboard; sourceTree = "<group>"; };
+		C96F42911F13F82100AB13A1 /* UIWindowExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UIWindowExtension.swift; path = ../UIWindowExtension.swift; sourceTree = "<group>"; };
+		C96F42931F13F95200AB13A1 /* SplashScreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SplashScreenViewController.swift; path = ../SplashScreenViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +68,9 @@
 				C96F427F1F0ED78700AB13A1 /* Main.storyboard */,
 				C96F42821F0ED78700AB13A1 /* Assets.xcassets */,
 				C96F42841F0ED78700AB13A1 /* LaunchScreen.storyboard */,
+				C96F428F1F13F30400AB13A1 /* Root.storyboard */,
+				C96F42911F13F82100AB13A1 /* UIWindowExtension.swift */,
+				C96F42931F13F95200AB13A1 /* SplashScreenViewController.swift */,
 				C96F42871F0ED78700AB13A1 /* Info.plist */,
 			);
 			path = "Pulse v0";
@@ -128,6 +137,7 @@
 			files = (
 				C96F42861F0ED78700AB13A1 /* LaunchScreen.storyboard in Resources */,
 				C96F42831F0ED78700AB13A1 /* Assets.xcassets in Resources */,
+				C96F42901F13F30400AB13A1 /* Root.storyboard in Resources */,
 				C96F42811F0ED78700AB13A1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -140,7 +150,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				C96F427E1F0ED78700AB13A1 /* SecondViewController.swift in Sources */,
+				C96F42921F13F82100AB13A1 /* UIWindowExtension.swift in Sources */,
 				C96F427A1F0ED78700AB13A1 /* AppDelegate.swift in Sources */,
+				C96F42941F13F95200AB13A1 /* SplashScreenViewController.swift in Sources */,
 				C96F427C1F0ED78700AB13A1 /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -303,6 +315,7 @@
 				C96F428C1F0ED78700AB13A1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

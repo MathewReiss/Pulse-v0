@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="Z2Q-Mw-GMZ">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="46w-pN-hJb">
+            <objects>
+                <navigationController hidesBottomBarWhenPushed="YES" useStoryboardIdentifierAsRestorationIdentifier="YES" navigationBarHidden="YES" id="Z2Q-Mw-GMZ" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="8YI-rb-7M2">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="jte-Br-FRz" kind="relationship" relationship="rootViewController" id="WF7-tt-mUE"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="SrJ-Mh-qI5" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1790" y="-525"/>
+        </scene>
+        <!--Splash Screen View Controller-->
+        <scene sceneID="fgn-LN-hzi">
+            <objects>
+                <viewController id="jte-Br-FRz" customClass="SplashScreenViewController" customModule="Pulse_v0" customModuleProvider="target" sceneMemberID="viewController">
+                    <containerView key="view" opaque="NO" contentMode="scaleToFill" id="BcI-8g-FYq">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                        <connections>
+                            <segue destination="v0O-Pe-WGl" kind="embed" identifier="EmbedLaunch" id="Ebn-kC-EMa"/>
+                        </connections>
+                    </containerView>
+                    <navigationItem key="navigationItem" id="d67-io-xLb"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7Ev-LN-dBf" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1066" y="-527"/>
+        </scene>
+        <!--LaunchScreen-->
+        <scene sceneID="vJl-cG-4cW">
+            <objects>
+                <viewControllerPlaceholder storyboardName="LaunchScreen" id="v0O-Pe-WGl" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="F7p-1M-mzy" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-518" y="-526"/>
+        </scene>
+    </scenes>
+</document>
